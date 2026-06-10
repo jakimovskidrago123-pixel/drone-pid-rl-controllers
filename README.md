@@ -56,6 +56,10 @@ The tuned classical cascaded controller remained more accurate, but the RL contr
 
 ## Preview Plots
 
+### RL Training Curves
+
+![RL training curves](plots/rl_training_curves.png)
+
 ### PID Tracking Overview
 
 ![PID tracking overview](plots/pid_tracking_overview.png)
@@ -73,6 +77,14 @@ The tuned classical cascaded controller remained more accurate, but the RL contr
 ### RL Neural Controller Error
 
 ![RL neural mean error by target](plots/rl_neural_mean_error_by_target.png)
+
+### RL Neural Controller Moving to Target
+
+| Time Response | Position Error |
+|---|---|
+| ![RL neural moving to target](plots/rl_neural_moving_to_target_time_response.png) | ![RL neural position error](plots/rl_neural_moving_to_target_position_error.png) |
+
+![RL neural 3D path](plots/rl_neural_3d_path_to_target.png)
 
 ---
 
@@ -159,6 +171,10 @@ drone-pid-rl-controllers/
 |   +-- velocity_tuning_x_stacked.png
 |   +-- simulation_vs_experiment_speed15.png
 |   +-- rl_neural_mean_error_by_target.png
+|   +-- rl_training_curves.png
+|   +-- rl_neural_moving_to_target_time_response.png
+|   +-- rl_neural_moving_to_target_position_error.png
+|   +-- rl_neural_3d_path_to_target.png
 +-- README.md
 ```
 
