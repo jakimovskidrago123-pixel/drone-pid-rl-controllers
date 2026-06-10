@@ -80,3 +80,22 @@ Targets over 0.01 m:         5 / 24
 
 The tuned classical cascade controller remained more accurate, but this repository shows a working neural RL-style alternative and its training pipeline.
 
+## Plots
+
+### PID Tracking
+
+![PID tracking overview](plots/pid_tracking_overview.png)
+
+### Velocity Tuning Before/After
+
+![Velocity tuning position error](plots/velocity_tuning_position_error.png)
+
+![Velocity tuning X response](plots/velocity_tuning_x_stacked.png)
+
+### Simulation vs Experiment
+
+![Simulation vs experiment speed 15](plots/simulation_vs_experiment_speed15.png)
+
+### RL Neural Controller
+
+![RL neural mean error by target](plots/rl_neural_mean_error_by_target.png)
